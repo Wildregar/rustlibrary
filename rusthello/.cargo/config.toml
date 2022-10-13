@@ -1,0 +1,27 @@
+#### WINDOWS
+#[target.aarch64-linux-android]
+#ar = "C:/workspace/projects/Rust/android/NDK/arm64/bin/aarch64-linux-android-ar"
+##linker = "C:/workspace/projects/Rust/android/NDK/arm64/bin/aarch64-linux-android-clang.cmd"
+#linker = "C:/Users/mauro.esposito/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android33-clang.cmd"
+#
+#[target.armv7-linux-androideabi]
+#ar = "C:/workspace/projects/Rust/android/NDK/arm/bin/arm-linux-androideabi-ar"
+#linker = "C:/Users/mauro.esposito/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi33-clang.cmd"
+#
+#[target.i686-linux-android]
+#ar = "C:/workspace/projects/Rust/android/NDK/x86/bin/i686-linux-android-ar"
+#linker = "C:/workspace/projects/Rust/android/NDK/x86/bin/i686-linux-android-clang.cmd"
+
+#### MAC OSX
+#[target.aarch64-linux-android]
+#ar = "Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar"
+#linker = "Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android29-clang"
+#
+#[target.armv7-linux-androideabi]
+#ar = "Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar"
+#linker = "Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi29-clang"
+#
+#[target.i686-linux-android]
+#ar = "Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/i686-linux-androideabi-ar"
+#linker = "Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/i686-linux-androideabi29-clang"
+#
